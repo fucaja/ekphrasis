@@ -72,7 +72,7 @@ def listdir_nohidden(path):
 def download_statistics():
     stats_dir = get_stats_dir()
     print("Word statistics files not found!\nDownloading...", end=" ")
-    url = "https://www.dropbox.com/s/a84otqrg6u1c5je/stats.zip?dl=1"
+    url = "https://www.dropbox.com/s/5f63ougmeoh9l8x/stats.zip?dl=1"
     urlretrieve(url, "stats.zip")
     print("done!")
 
